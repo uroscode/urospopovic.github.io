@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Uros Popovic | Web Developer From Serbia | PHP, Javascript, HTML, CSS, MYSQL,JSON, AJAX, WORDPRESS,BOOSTRAP">
+    <meta name="keywords" content="Uros Popovic,Web Developer, HTML, CSS, JAVASCRIPT, JQUERY, WEB Development, make your professional web site,WordPress,BOOTSTRAP">
+    <meta name="author" content="Uros Popovic">
+    <title>Web Developer | Uroš Popović | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--GOOGLE CAPTCHA CDN-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+            async defer>
+    </script>
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+<!--HEADER-->
+<header>
+    <div class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Uroš Popović</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main class="l-main">
+    <!--====HOME====-->
+<section class="home" id="home">
+    <div class="home__container bd-grid">
+        <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+        <div class="home__scroll">
+            <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+        </div>
+
+        <img src="img/perfil.png" alt="" class="home__img">
+    </div>
+</section>
+    <!--====About====-->
+<section class="about section" id="about">
+    <h2 class="section-title">About</h2>
+
+    <div class="about__container bd-grid">
+        <div class="about__img">
+            <img src="img/perfil.png" alt="">
+        </div>
+
+        <div>
+            <h2 class="about__subtitle">
+                I'm Uros Popovic
+            </h2>
+            <span class="about__profession">Web Developer</span>
+            <p class="about__text">I'm coming from Serbia, had experience in web development for over a 3 years.Always enthusiastic about the new projects.</p>
+
+            <div class="abount__social">
+                <a href="https://www.freelancer.com/u/urospopovic" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/uroscode" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <!--====SKILLS====-->
+<section class="skills section" id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills__container bd-grid">
+        <div class="skills__box">
+            <div class="container">
+                <h3 class="skills__subtitle">Development</h3>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Html</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-html" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                     </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Css</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-css" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">JavaScript</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-javascript" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Jquery</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-jquery" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Ajax</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-ajax" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Json</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-json" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">MySQL</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-mysql" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Workbench</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-workbench" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Bootstrap</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-bootstrap" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Apache</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-apache" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Wordpress</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-wordpress" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Laravel</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-laravel" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                     </div>
+                    </div>
+                </div>
+                
+                  <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">Git</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-git" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                     </div>
+                    </div>
+                </div>
+
+                <!--SKILL SEPERATOR-->
+                <div class="row">
+                    <div class="col-md-2">
+                        <p class="skills__name" style="text-align: center;">PhotoShop</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="progress skills__bar-progress">
+                            <div id="bar-ps" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+
+
+        <div class="skills__img">
+            <img src="img/work1.jpg" alt="">
+        </div>
+    </div>
+</section>
+    <!--====PORTFOLIO====-->
+<section class="portfolio section" id="portfolio">
+
+     <h2 class="section-title">Portfolio</h2>
+
+    <div class="portfolio__container bd-grid">
+        <div class="portfolio__img">
+            <img src="img/work1.png" alt="">
+
+            <div class="portfolio__link">
+                <a href="https://www.ugradnatehnika.rs/" class="portfolio__link-name">View Details</a>
+            </div>
+        </div>
+
+        <div class="portfolio__img">
+            <img src="img/work2.png" alt="">
+
+            <div class="portfolio__link">
+                <a href="https://galerijatestue.000webhostapp.com/galerija/" class="portfolio__link-name">View Details</a>
+            </div>
+        </div>
+
+        <div class="portfolio__img">
+            <img src="img/work3.png" alt="">
+
+            <div class="portfolio__link">
+                <a href="http://galerijatestue.000webhostapp.com/weather/" class="portfolio__link-name">View Details</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+    <!--====CONTACT====-->
+    <section class="contact section" id="contact">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <div class="contact__info">
+                <h3 class="contact__subtitle">EMAIL</h3>
+                <span class="contact__text">urospopovicco@gmail.com</span>
+                <h3 class="contact__subtitle">PHONE</h3>
+                <span class="contact__text">+381 61 64 66 326</span>
+
+                <h3 class="contact__subtitle">State</h3>
+                <span class="contact__text">Serbia</span>
+            </div>
+            <form id="sendmail" method="POST">
+                <div class="contact__form">
+                    <p class="message"></p>
+                    <span class="sending"><i class='bx bx-envelope'></i></span>
+                    <div class="contact__inputs">
+                        <input name="name" type="text" placeholder="Name" id="name" class="contact__input" >
+                        <input name="email" type="mail" placeholder="Email" id="email" class="contact__input" >
+                    </div>
+                    <textarea name="message" id="message" cols="0" rows="10" class="contact__input" placeholder="Your question..." ></textarea>
+                    <div id="captcha" class="g-recaptcha" data-sitekey="6Lfnq8IZAAAAALKKaYHYSnvOy0lKrgW0bvhUNkQ5"></div>
+                    <br/>
+                    <input type="submit" value="Submit" name="submit" class="contact__button">
+
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+
+<script>
+    $(document).ready(function() {
+
+        var form = $("#sendmail");
+        form.submit(function(e){
+            e.preventDefault();
+            $(".message").html();
+            $('.message').fadeIn();
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var message = $('#message').val();
+
+            if(name == ''){
+
+                $('#name').css('border', '1.5px solid red');
+                $('.message').addClass("alert alert-danger");
+                $('.message').html("Selected fields reqiured!");
+            }
+            if(email == ''){
+
+                $('#email').css('border', '1.5px solid red');
+                $('.message').addClass("alert alert-danger");
+                $('.message').html("Selected fields reqiured!");
+
+            }
+            if(message == '') {
+
+                $('#message').css('border', '1.5px solid red');
+                $('.message').addClass("alert alert-danger");
+                $('.message').html("Selected fields reqiured!");
+            }
+            if(message != '' && email != '' && name != '') {
+                $.ajax({
+                    type: "post",//POST METHOD
+                    url: "includes/sendmail.php",
+                    data: form.serialize(),
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.response == 'success') {
+                            $('.message').html(data.content);
+                            $('.message').removeClass('alert alert-danger');
+                            $('.message').addClass("alert alert-success");
+                            $('#name').css('border', '1.5px solid #2A3B47');
+                            $('#email').css('border', '1.5px solid #2A3B47');
+                            $('#message').css('border', '1.5px solid #2A3B47');
+                            $('.sending').show().animate(
+                                {marginLeft: '450px',opacity: 0}, 5000, function() {
+                                    // Animation complete.
+                                });
+                            $('.message').fadeOut(2500);
+                            $(form).trigger("reset");
+                        }else {
+                            $('.message').addClass("alert alert-danger");
+                            $('.message').html(data.content);
+                        }
+
+                    },
+                    error: function (data) {
+                        $(".message").html(JSON.stringify(data));
+                    }
+
+                })
+            }
+        });
+
+
+    });
+</script>
+
+<!--FOOTER-->
+<footer class="footer section" id="footer">
+    <div class="footer__container bd-grid">
+
+        <div class="footer__data">
+            <h2 class="footer__title">
+                Uros Popovic
+            </h2>
+            <p class="footer__text">I'm Uros Popovic and this is my personal website</p>
+        </div>
+
+        <div class="footer__data">
+            <h2 class="footer__title">
+                EXPLORE
+            </h2>
+            <ul>
+                <li><a href="#home" class="footer__link">Home</a></li>
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#skills" class="footer__link">Skills</a></li>
+                <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                <li><a href="#contact" class="footer__link">Contact</a></li>
+
+            </ul>
+        </div>
+
+        <div class="footer__data">
+            <h2 class="footer__title">
+                FOLLOW
+            </h2>
+            <a href="https://www.linkedin.com/in/uros-popovic-b921331b4/" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/uroscode" class="footer__social"><i class='bx bxl-github' ></i></a>
+
+        </div>
+
+    </div>
+
+</footer>
+<!--SMOOTH SCROLLING-->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--MAIN JS-->
+<script src="js/main.js"></script>
+</body>
+</html>
